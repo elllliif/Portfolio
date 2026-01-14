@@ -5,7 +5,7 @@ const Experience = () => {
         {
             company: 'Ford Otosan',
             role: 'Full-Stack Developer',
-            period: '01/08/2023 - 19/01/2025',
+            period: '01/08/2023 - 19/12/2025',
             desc: 'Worked on the DRM (Dealer Management) system, managing backend data for business units and distributors within both domestic and international projects. Integrated with other teams within Ford and developed features enabling dealers to upload training documents and videos.',
             tags: ['Java', '.NET Core', 'SQL', 'REST API', 'DRM System']
         },
