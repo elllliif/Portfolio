@@ -11,7 +11,7 @@ const Skills = () => {
         {
             title: 'Frameworks',
             icon: <FaServer size={24} />,
-            items: ['Spring Boot', 'Spring Security', 'ASP.NET Core', 'Entity Framework', 'Hibernate', 'JPA', 'JDBC']
+            items: ['Spring Boot', 'Spring Security', 'ASP.NET Core MVC', 'Web Forms', 'EF Core', 'Hibernate', 'JPA', 'JDBC']
         },
         {
             title: 'Database & Big Data',
