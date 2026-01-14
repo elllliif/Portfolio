@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaFolderOpen, FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { RiProjector2Line } from 'react-icons/ri';
 
 const Projects = () => {
     const projectList = [
@@ -72,9 +74,15 @@ const Projects = () => {
                     <div key={idx} className="glass" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', transition: 'var(--transition)', cursor: 'pointer' }}
                         onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-10px)'}
                         onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1.5rem' }}>
-                            <span style={{ fontSize: '2rem' }}>📁</span>
-                            <a href={project.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-color)', fontSize: '1.2rem' }}>↗</a>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1.5rem', alignItems: 'flex-start' }}>
+                            <div style={{ background: 'rgba(var(--accent-color-rgb), 0.1)', padding: '10px', borderRadius: '10px', color: 'var(--accent-color)' }}>
+                                <FaFolderOpen size={24} />
+                            </div>
+                            <a href={project.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', fontSize: '1.2rem', transition: '0.3s' }}
+                                onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-color)'}
+                                onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>
+                                <FaExternalLinkAlt size={18} />
+                            </a>
                         </div>
                         <h3 style={{ marginBottom: '1rem', fontSize: '1.3rem' }}>{project.title}</h3>
                         <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '1.5rem', flexGrow: 1 }}>{project.desc}</p>
