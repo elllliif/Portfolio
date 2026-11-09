@@ -14,10 +14,6 @@ const Contact = () => {
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', width: '100%', maxWidth: '800px' }}>
                         <div>
-                            <p style={{ color: 'var(--accent-color)', fontWeight: '800', marginBottom: '0.5rem' }}>EMAIL</p>
-                            <a href="mailto:elif772017@icloud.com" style={{ fontSize: '1.1rem' }}>elif772017@icloud.com</a>
-                        </div>
-                        <div>
                             <p style={{ color: 'var(--accent-color)', fontWeight: '800', marginBottom: '0.5rem' }}>LOCATION</p>
                             <p style={{ fontSize: '1.1rem' }}>İstanbul, Turkey</p>
                         </div>
@@ -25,7 +21,7 @@ const Contact = () => {
                             <p style={{ color: 'var(--accent-color)', fontWeight: '800', marginBottom: '0.5rem' }}>SOCIAL</p>
                             <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginTop: '0.5rem' }}>
                                 <a href="https://github.com/elllliif" target="_blank" rel="noopener noreferrer">GitHub</a>
-                                <a href="https://linkedin.com/in/elif-nur-tabakli" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                                <a href="https://linkedin.com/in/elif-nur-tabakli-a5a7b9233" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                             </div>
                         </div>
                     </div>
